@@ -1,14 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 *:focus-visible,
 button:focus-visible {
 	border: 3px solid black;
 }
+
 :root {
 	--background-color: #34b38a;
 	--text-color: #f7f6f2;
+	--socials-background: #38424f;
 }
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #34b38a;
 		--text-color: #f7f6f2;
+		--socials-background: #38424f;
 	}
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 5rem;
+}
+
+h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-size: 2rem;
+	font-style: normal;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
 }

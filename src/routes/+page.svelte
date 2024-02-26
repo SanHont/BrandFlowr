@@ -1,36 +1,15 @@
 <script>
-	import Socials from '../lib/components/socials.svelte';
+	import Title from '../lib/components/title.svelte';
+	import Services from '../lib/components/services.svelte';
+	import Footer from '../lib/components/footer.svelte';
+	import About from '../lib/components/about.svelte';
 </script>
 
-<section>
-	<h1>Brand<span>Flowr</span></h1>
-</section>
+<Title />
 
-<Socials />
+<Services />
 
-<style>
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
+<About />
 
-	:global(html) {
-		scroll-behavior: smooth;
-	}
+<Footer />
 
-	:global(body) {
-		background-color: var(--background-color);
-		color: var(--text-color);
-		position: relative;
-	}
-
-	h1 {
-		font-size: 25rem;
-	}
-
-	h1 span {
-		display: block;
-		margin-top: -10%;
-	}
-</style>
