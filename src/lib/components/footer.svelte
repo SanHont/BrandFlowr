@@ -1,7 +1,7 @@
 <section>
 	<div class="logo">
 		<h3>BrandFlowr</h3>
-		<p> HIER KOMT SVG LOGO</p>
+		<p>HIER KOMT SVG LOGO</p>
 	</div>
 
 	<div class="divider"></div>
@@ -131,14 +131,14 @@
 		align-items: center;
 	}
 
-    span {
-        margin: 5px;
-    }
+	span {
+		margin: 5px;
+	}
 
 	h3 {
 		margin-bottom: 10px;
 		text-transform: uppercase;
-        font-size: 1.35rem;
+		font-size: 1.35rem;
 	}
 
 	svg {

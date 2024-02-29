@@ -1,84 +1,155 @@
 <section>
-    <h2>Our Services</h2>
-    <div class="services">
-        <div class="card">
-            <h3>Social Media Marketing</h3>
-            <p>
-                Nowadays, social media platforms are the most useful ways to spread your brand. It is also
-                the perfect way to create engagement with your potential customers. Our social media experts
-                will make sure that your brand’s portrayal will reach its designated audience. BrandFlowr
-                does everything from creating content to a full management of your social media accounts.
-                With doing this we help you with creating a better presence on platforms like Instagram,
-                Facebook and more.
-            </p>
-        </div>
-        <div class="card">
-            <h3>Web Development</h3>
-            <p>
-                Having a website for your business is a mandatory thing in the 21st century. First thing
-                potential customers do when they hear about a company is visit their website. This way your
-                website is not only your first impression, but your online business card as well. BrandFlowr
-                creates well-developed websites, which will bring your business’ online presence to life.
-            </p>
-        </div>
-        <div class="card">
-            <h3>Canon</h3>
-            <p>
-                Website development: Having a website for your business is a mandatory thing in the 21st
-                century. First thing potential customers do when they hear about a company is visit their
-                website. This way your website is not only your first impression, but your online business
-                card as well. BrandFlowr creates well-developed websites, which will bring your business’
-                online presence to life.
-            </p>
-        </div>
-    </div>
+	<h2>Our Services</h2>
+	<div class="services">
+		<div class="card">
+			<img src="assets/socialmedia.svg" alt="Our social media services" />
+			<h3>Social Media</h3>
+			<div class="line"></div>
+			<p class="first-text">
+				"Optimize brand visibility and engagement across platforms. Our social media experts handle
+				content creation, management, and enhance your presence on Instagram, Facebook, and more."
+			</p>
+			<!-- <p class="second-text">
+				Nowadays, social media platforms are the most useful ways to spread your brand. It is also
+				the perfect way to create engagement with your potential customers. Our social media experts
+				will make sure that your brand’s portrayal will reach its designated audience. BrandFlowr
+				does everything from creating content to a full management of your social media accounts.
+				With doing this we help you with creating a better presence on platforms like Instagram,
+				Facebook and more.
+			</p> -->
+			<h4>Learn More</h4>
+		</div>
+		<div class="card">
+			<img src="assets/programming.svg" alt="Our webdevelopment services" />
+			<h3>Web Development</h3>
+			<div class="line"></div>
+			<p class="first-text">
+				"A must in the 21st century, your business website is the first impression and online
+				business card. BrandFlowr ensures vitality and impact."
+			</p>
+			<!-- <p class="second-text">
+				Having a website for your business is a mandatory thing in the 21st century. First thing
+				potential customers do when they hear about a company is visit their website. This way your
+				website is not only your first impression, but your online business card as well. BrandFlowr
+				creates well-developed websites, which will bring your business’ online presence to life.
+			</p> -->
+			<h4>Learn More</h4>
+		</div>
+		<div class="card">
+			<img src="assets/photography.svg" alt="Our photography services" />
+			<h3>Photography</h3>
+			<div class="line"></div>
+			<p class="first-text">
+				"Brandflowr's dedicated photographers & videographers create compelling online content for
+				your business, ensuring a positive image and engagement on social media."
+			</p>
+			<!-- <p class="second-text">
+				Brandflowr works together with a dedicated team of photographers & videographers who can
+				help with creating online content for your business. Depending on the date of most recent
+				photos and preference for which Social Media platform we can create regular posts for your
+				company which will be seen by all of your potential customers around your area. These
+				photographers and videographers capture the essence of your business through their lens and
+				will give a good image of your company for everyone to see.
+			</p> -->
+			<h4>Learn More</h4>
+		</div>
+	</div>
 </section>
- 
+
 <style>
-    section {
-        background-color: #4ecca3;
-        padding: 20px;
-    }
-    .services {
-        display: flex;
-        line-height: 1.5;
-    }
-    .card {
-        border: 2px solid #38424f;
-        width: 600px;
-        justify-content: center;
-        margin: 20px;
-        border-radius: 2rem;
-        padding: 1rem;
-    }
- 
-    h2 {
-        text-align: center;
- 
-        font-family: 'Montserrat', sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        color: #38424f;
-        font-size: 5rem;
-    }
- 
-    h3 {
-        text-align: center;
- 
-        font-family: 'Montserrat', sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-size: 2rem;
-        color: #38424f;
-        font-style: normal;
-    }
- 
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        color: #38424f;
-        font-style: normal;
-    }
+	img {
+		height: 20rem;
+		margin: 1rem;
+	}
+
+	section {
+		background-color: #4ecca3;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.line {
+		background-color: #76d7b8;
+		height: 0.3rem;
+		width: 40%;
+		margin: 1rem 0;
+		border-radius: 1rem;
+	}
+
+	.services {
+		display: flex;
+		line-height: 1.5;
+		width: 85%;
+	}
+
+	.card {
+		width: 600px;
+		background-color: var(--text-color);
+		display: flex;
+		flex-direction: column;
+		margin: 20px;
+		align-items: center;
+		padding: 1rem;
+		border-radius: 1rem;
+	}
+
+	h2 {
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-style: normal;
+		color: #38424f;
+		font-size: 5rem;
+		margin-bottom: 2rem;
+	}
+
+	h3 {
+		text-align: center;
+
+		font-family: 'Montserrat', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-size: 2rem;
+		color: #38424f;
+		font-style: normal;
+	}
+
+	h4 {
+		margin-top: 1rem;
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-size: 1.1rem;
+		color: #38424f;
+		border-bottom: 2px solid #76d7b8;
+		border-left: 2px solid #38424f00;
+		border-right: 2px solid #38424f00;
+		border-top: 2px solid #38424f00;
+		font-style: normal;
+		padding: 0.2rem;
+	}
+
+	p {
+		font-family: 'Montserrat', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 300;
+		color: #38424f;
+		font-style: normal;
+	}
+
+	.card:hover {
+		transition: 0.3s;
+		scale: 105%;
+	}
+
+	h4:hover {
+		border-left: 2px solid #76d7b8;
+		border-right: 2px solid #76d7b8;
+		border-top: 2px solid #76d7b8;
+		transition: 0.3s;
+	}
 </style>

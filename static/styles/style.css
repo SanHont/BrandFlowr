@@ -16,6 +16,7 @@ button:focus-visible {
 	--background-color: #34b38a;
 	--text-color: #f7f6f2;
 	--socials-background: #38424f;
+	--services-text-color: #38424f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,6 +24,7 @@ button:focus-visible {
 		--background-color: #34b38a;
 		--text-color: #f7f6f2;
 		--socials-background: #38424f;
+		--services-text-color: #38424f;
 	}
 }
 
@@ -34,11 +36,19 @@ h2 {
 	font-size: 5rem;
 }
 
-h3, h4 {
+h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 700;
 	font-size: 2rem;
+	font-style: normal;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-size: 1.1rem;
 	font-style: normal;
 }
 
