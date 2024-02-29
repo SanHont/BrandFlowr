@@ -15,46 +15,51 @@ button:focus-visible {
 :root {
 	--background-color: #34b38a;
 	--text-color: #f7f6f2;
-	--socials-background: #38424f;
 	--services-text-color: #38424f;
+	--services-background-color: #4ecca3;
+	--line-color: #76d7b8;
+	--line-color-transparent: #76d7b800;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #34b38a;
 		--text-color: #f7f6f2;
-		--socials-background: #38424f;
 		--services-text-color: #38424f;
+		--services-background-color: #4ecca3;
+		--line-color: #76d7b8;
+		--line-color-transparent: #76d7b800;
 	}
 }
 
-h2 {
+h2,
+h3,
+h4,
+p {
 	font-family: 'Montserrat', sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 700;
 	font-style: normal;
+}
+
+h2 {
 	font-size: 5rem;
 }
 
 h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
 	font-size: 2rem;
-	font-style: normal;
 }
 
 h4 {
-	font-family: 'Montserrat', sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
 	font-size: 1.1rem;
-	font-style: normal;
+}
+
+h2,
+h3,
+h4 {
+	font-weight: 700;
 }
 
 p {
-	font-family: 'Montserrat', sans-serif;
-	font-optical-sizing: auto;
 	font-weight: 300;
-	font-style: normal;
 }

@@ -57,21 +57,30 @@
 </section>
 
 <style>
+	section {
+		background-color: var(--services-background-color);
+		padding: 20px;
+	}
+
+	section,
+	.services,
+	.card {
+		display: flex;
+	}
+
+	section,
+	.card {
+		flex-direction: column;
+		align-items: center;
+	}
+
 	img {
 		height: 20rem;
 		margin: 1rem;
 	}
 
-	section {
-		background-color: #4ecca3;
-		padding: 20px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
 	.line {
-		background-color: #76d7b8;
+		background-color: var(--line-color);
 		height: 0.3rem;
 		width: 40%;
 		margin: 1rem 0;
@@ -79,7 +88,6 @@
 	}
 
 	.services {
-		display: flex;
 		line-height: 1.5;
 		width: 85%;
 	}
@@ -87,10 +95,7 @@
 	.card {
 		width: 600px;
 		background-color: var(--text-color);
-		display: flex;
-		flex-direction: column;
 		margin: 20px;
-		align-items: center;
 		padding: 1rem;
 		border-radius: 1rem;
 	}
@@ -114,17 +119,17 @@
 
 	h4 {
 		margin-top: 1rem;
-		border-bottom: 2px solid #76d7b8;
-		border-left: 2px solid #38424f00;
-		border-right: 2px solid #38424f00;
-		border-top: 2px solid #38424f00;
+		border-bottom: 2px solid var(--line-color);
+		border-left: 2px solid var(--line-color-transparent);
+		border-right: 2px solid var(--line-color-transparent);
+		border-top: 2px solid var(--line-color-transparent);
 		padding: 0.2rem;
 	}
 
 	h4:hover {
-		border-left: 2px solid #76d7b8;
-		border-right: 2px solid #76d7b8;
-		border-top: 2px solid #76d7b8;
+		border-left: 2px solid var(--line-color);
+		border-right: 2px solid var(--line-color);
+		border-top: 2px solid var(--line-color);
 		transition: 0.3s;
 	}
 
