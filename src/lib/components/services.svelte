@@ -96,54 +96,29 @@
 	}
 
 	h2 {
-		text-align: center;
-		font-family: 'Montserrat', sans-serif;
-		font-optical-sizing: auto;
-		font-weight: 700;
-		font-style: normal;
-		color: #38424f;
-		font-size: 5rem;
 		margin-bottom: 2rem;
 	}
 
-	h3 {
+	h2,
+	h3,
+	h4 {
 		text-align: center;
+	}
 
-		font-family: 'Montserrat', sans-serif;
-		font-optical-sizing: auto;
-		font-weight: 700;
-		font-size: 2rem;
-		color: #38424f;
-		font-style: normal;
+	h2,
+	h3,
+	h4,
+	p {
+		color: var(--services-text-color);
 	}
 
 	h4 {
 		margin-top: 1rem;
-		text-align: center;
-		font-family: 'Montserrat', sans-serif;
-		font-optical-sizing: auto;
-		font-weight: 700;
-		font-size: 1.1rem;
-		color: #38424f;
 		border-bottom: 2px solid #76d7b8;
 		border-left: 2px solid #38424f00;
 		border-right: 2px solid #38424f00;
 		border-top: 2px solid #38424f00;
-		font-style: normal;
 		padding: 0.2rem;
-	}
-
-	p {
-		font-family: 'Montserrat', sans-serif;
-		font-optical-sizing: auto;
-		font-weight: 300;
-		color: #38424f;
-		font-style: normal;
-	}
-
-	.card:hover {
-		transition: 0.3s;
-		scale: 105%;
 	}
 
 	h4:hover {
@@ -151,5 +126,10 @@
 		border-right: 2px solid #76d7b8;
 		border-top: 2px solid #76d7b8;
 		transition: 0.3s;
+	}
+
+	.card:hover {
+		transition: 0.3s;
+		scale: 105%;
 	}
 </style>
