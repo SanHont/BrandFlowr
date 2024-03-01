@@ -2319,7 +2319,7 @@
 		<article>
 			<h2>About Us</h2>
 			<p>
-				"At BrandFlowr, we operate on the principles of the Golden Circle, beginning with 'Why.' Our
+				At BrandFlowr, we operate on the principles of the Golden Circle, beginning with 'Why.' Our
 				'Why' is rooted in a deep belief that every business has the potential for transformative
 				growth through strategic marketing. 'How' we accomplish this is by blending creativity,
 				data-driven insights, and innovation to craft marketing solutions that resonate. 'What' we
@@ -2331,14 +2331,14 @@
 				communicated effectively but deeply understood by your target audience. We navigate the
 				dynamic marketing landscape to create meaningful connections and lasting impressions. Join
 				us in exploring the possibilities, as we turn your brand story into a journey of shared
-				success, leaving a lasting imprint in the ever-evolving digital realm."
+				success, leaving a lasting imprint in the ever-evolving digital realm.
 			</p>
 			<!-- <p>
 				Moreover, our commitment extends beyond campaigns; we strive to be your strategic partner,
 				evolving with you as your brand grows. Our passion for innovation drives us to stay at the
 				forefront of emerging trends, ensuring your brand remains ahead in the competitive
 				landscape. At BrandFlowr, we don't just meet expectations; we exceed them, fostering an
-				enduring partnership built on creativity, collaboration, and unparalleled results."
+				enduring partnership built on creativity, collaboration, and unparalleled results.
 			</p> -->
 		</article>
 	</section>
