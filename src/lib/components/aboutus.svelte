@@ -2318,28 +2318,30 @@
 		>
 		<article>
 			<h2>About Us</h2>
-			<p>
-				At BrandFlowr, we operate on the principles of the Golden Circle, beginning with 'Why.' Our
-				'Why' is rooted in a deep belief that every business has the potential for transformative
-				growth through strategic marketing. 'How' we accomplish this is by blending creativity,
-				data-driven insights, and innovation to craft marketing solutions that resonate. 'What' we
-				bring to the table is a holistic range of services, including strategic planning, creative
-				content creation, and full-scale social media management.
-			</p>
-			<p>
-				Our team of dedicated professionals ensures that your brand's essence is not only
-				communicated effectively but deeply understood by your target audience. We navigate the
-				dynamic marketing landscape to create meaningful connections and lasting impressions. Join
-				us in exploring the possibilities, as we turn your brand story into a journey of shared
-				success, leaving a lasting imprint in the ever-evolving digital realm.
-			</p>
+			<div class="text-bg">
+				<p>
+					At BrandFlowr, we operate on the principles of the Golden Circle, beginning with 'Why.'
+					Our 'Why' is rooted in a deep belief that every business has the potential for
+					transformative growth through strategic marketing. 'How' we accomplish this is by blending
+					creativity, data-driven insights, and innovation to craft marketing solutions that
+					resonate. 'What' we bring to the table is a holistic range of services, including
+					strategic planning, creative content creation, and full-scale social media management.
+				</p>
+				<p>
+					Our team of dedicated professionals ensures that your brand's essence is not only
+					communicated effectively but deeply understood by your target audience. We navigate the
+					dynamic marketing landscape to create meaningful connections and lasting impressions. Join
+					us in exploring the possibilities, as we turn your brand story into a journey of shared
+					success, leaving a lasting imprint in the ever-evolving digital realm.
+				</p>
+			</div>
 			<!-- <p>
-				Moreover, our commitment extends beyond campaigns; we strive to be your strategic partner,
-				evolving with you as your brand grows. Our passion for innovation drives us to stay at the
-				forefront of emerging trends, ensuring your brand remains ahead in the competitive
-				landscape. At BrandFlowr, we don't just meet expectations; we exceed them, fostering an
-				enduring partnership built on creativity, collaboration, and unparalleled results.
-			</p> -->
+					Moreover, our commitment extends beyond campaigns; we strive to be your strategic partner,
+					evolving with you as your brand grows. Our passion for innovation drives us to stay at the
+					forefront of emerging trends, ensuring your brand remains ahead in the competitive
+					landscape. At BrandFlowr, we don't just meet expectations; we exceed them, fostering an
+					enduring partnership built on creativity, collaboration, and unparalleled results.
+				</p> -->
 		</article>
 	</section>
 	<img class="wavefooter" src="assets/wavefooter2.svg" alt="Your SVG" />
@@ -2359,14 +2361,22 @@
 		width: 40%;
 	}
 
+	/* .text-bg {
+		border-radius: 1rem;
+		padding: 1rem;
+		background-color: var(--text-color);
+	} */
+
 	p {
 		margin-bottom: 1.5rem;
 		max-width: 90%;
+		/* color: var(--services-text-color); */
 	}
 
 	article {
 		margin-left: 5rem;
 		width: 50%;
+		margin-bottom: 3rem;
 		line-height: 1.5;
 	}
 	svg#freepik_stories-seo-analytics-team:not(.animated) .animable {

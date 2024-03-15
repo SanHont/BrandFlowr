@@ -75,7 +75,7 @@
 	}
 
 	img {
-		height: 20rem;
+		height: 50%;
 		margin: 1rem;
 	}
 
@@ -93,11 +93,12 @@
 	}
 
 	.card {
-		width: 600px;
+		width: 30%;
 		background-color: var(--text-color);
 		margin: 20px;
 		padding: 1rem;
 		border-radius: 1rem;
+		transition: 0.3s;
 	}
 
 	h2 {
@@ -124,17 +125,17 @@
 		border-right: 2px solid var(--line-color-transparent);
 		border-top: 2px solid var(--line-color-transparent);
 		padding: 0.2rem;
+		transition: 0.3s;
 	}
 
 	h4:hover {
 		border-left: 2px solid var(--line-color);
 		border-right: 2px solid var(--line-color);
 		border-top: 2px solid var(--line-color);
-		transition: 0.3s;
+		cursor: pointer;
 	}
 
 	.card:hover {
-		transition: 0.3s;
 		scale: 105%;
 	}
 </style>
