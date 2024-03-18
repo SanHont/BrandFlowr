@@ -2358,7 +2358,7 @@
 
 	p {
 		margin-bottom: 1.5rem;
-		font-size: 1.1	rem;
+		font-size: 1.1rem;
 		max-width: 90%;
 	}
 
@@ -2409,6 +2409,109 @@
 		}
 		75% {
 			transform: rotate(-1deg);
+		}
+	}
+
+	@media only screen and (max-width: 1450px) {
+		h2 {
+			font-size: 4rem;
+		}
+		p {
+			max-width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 1420px) {
+		h2 {
+			font-size: 4rem;
+		}
+
+		p {
+			font-size: 1rem;
+			max-width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 1170px) {
+		h2 {
+			font-size: 3.5rem;
+		}
+
+		svg {
+			display: none;
+		}
+
+		section {
+			justify-content: center;
+		}
+
+		.content {
+			margin: 0 5rem;
+		}
+
+		article {
+			width: 70%;
+			margin-left: 0;
+		}
+
+		p {
+			font-size: 1rem;
+			max-width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 950px) {
+		h2 {
+			font-size: 3rem;
+		}
+	}
+
+	@media only screen and (max-width: 800px) {
+		h2 {
+			font-size: 3rem;
+		}
+
+		.content {
+			margin: 0 8rem;
+		}
+
+		svg {
+			display: none;
+		}
+		article {
+			width: 100%;
+			margin-left: 0;
+			margin-bottom: 2rem;
+		}
+	}
+
+	@media only screen and (max-width: 700px) {
+		h2 {
+			font-size: 2.5rem;
+		}
+
+		.content {
+			margin: 0 6rem;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		h2 {
+			font-size: 2rem;
+		}
+
+		.content {
+			margin: 0 4rem;
+		}
+	}
+
+	@media only screen and (max-width: 400px) {
+		h2 {
+			font-size: 1.8rem;
+		}
+
+		.content {
+			margin: 0 3rem;
 		}
 	}
 </style>

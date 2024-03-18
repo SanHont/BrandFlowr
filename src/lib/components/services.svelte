@@ -17,7 +17,7 @@
 				With doing this we help you with creating a better presence on platforms like Instagram,
 				Facebook and more.
 			</p> -->
-			<h4>Learn More</h4>
+			<!-- <h4>Learn More</h4> -->
 		</div>
 		<div class="card">
 			<img src="assets/programming.svg" alt="Our webdevelopment services" />
@@ -33,7 +33,7 @@
 				website is not only your first impression, but your online business card as well. BrandFlowr
 				creates well-developed websites, which will bring your business’ online presence to life.
 			</p> -->
-			<h4>Learn More</h4>
+			<!-- <h4>Learn More</h4> -->
 		</div>
 		<div class="card">
 			<img src="assets/photography.svg" alt="Our photography services" />
@@ -51,7 +51,7 @@
 				photographers and videographers capture the essence of your business through their lens and
 				will give a good image of your company for everyone to see.
 			</p> -->
-			<h4>Learn More</h4>
+			<!-- <h4>Learn More</h4> -->
 		</div>
 	</div>
 </section>
@@ -106,19 +106,19 @@
 	}
 
 	h2,
-	h3,
-	h4 {
+	h3
+	/* h4  */ {
 		text-align: center;
 	}
 
 	h2,
 	h3,
-	h4,
+	/* h4, */
 	p {
 		color: var(--services-text-color);
 	}
 
-	h4 {
+	/* h4 {
 		margin-top: 1rem;
 		border-bottom: 2px solid var(--line-color);
 		border-left: 2px solid var(--line-color-transparent);
@@ -133,9 +133,127 @@
 		border-right: 2px solid var(--line-color);
 		border-top: 2px solid var(--line-color);
 		cursor: pointer;
-	}
+	} */
 
 	.card:hover {
 		scale: 105%;
+	}
+
+	@media only screen and (max-width: 1410px) {
+		h3 {
+			font-size: 1.6rem;
+		}
+	}
+
+	@media only screen and (max-width: 1270px) {
+		h2 {
+			font-size: 4.5rem;
+		}
+		h3 {
+			font-size: 1.4rem;
+		}
+
+		img {
+			height: 40%;
+		}
+	}
+
+	@media only screen and (max-width: 1080px) {
+		h2 {
+			font-size: 4rem;
+		}
+		h3 {
+			font-size: 1.2rem;
+		}
+
+		img {
+			height: 35%;
+		}
+
+		p {
+			font-size: 0.9rem;
+		}
+	}
+
+	@media only screen and (max-width: 960px) {
+		h2 {
+			font-size: 3.5rem;
+		}
+		h3 {
+			font-size: 1rem;
+		}
+
+		img {
+			height: 30%;
+		}
+
+		p {
+			font-size: 0.8rem;
+		}
+	}
+
+	@media only screen and (max-width: 850px) {
+		h2 {
+			margin-bottom: -0.5rem;
+		}
+		.services {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.card {
+			width: 70%;
+		}
+
+		h3 {
+			font-size: 1rem;
+		}
+
+		img {
+			width: 50%;
+			height: 30%;
+		}
+
+		p {
+			max-width: 80%;
+			font-size: 0.8rem;
+		}
+	}
+
+	@media only screen and (max-width: 750px) {
+		h2 {
+			margin-bottom: -0.5rem;
+		}
+		.card {
+			width: 70%;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		h2 {
+			margin-bottom: -0.5rem;
+		}
+		.card {
+			width: 80%;
+		}
+	}
+
+	@media only screen and (max-width: 425px) {
+		h2 {
+			font-size: 2.8rem;
+		}
+		.card {
+			width: 90%;
+		}
+	}
+
+	@media only screen and (max-width: 350px) {
+		h2 {
+			font-size: 2.4rem;
+			margin-bottom: -0.5rem;
+		}
+		.card {
+			width: 100%;
+		}
 	}
 </style>

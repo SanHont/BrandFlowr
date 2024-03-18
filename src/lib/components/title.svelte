@@ -83,6 +83,10 @@
 		.flowr {
 			margin-top: -4rem;
 		}
+
+		img {
+			margin-top: -4rem;
+		}
 	}
 
 	@media only screen and (max-width: 390px) {
