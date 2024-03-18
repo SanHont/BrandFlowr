@@ -22,9 +22,6 @@
 	h1 {
 		z-index: 10;
 		font-size: 25rem;
-		/* font-family: 'Protest Strike', sans-serif;
-		font-weight: 800;
-		font-style: normal; */
 		font-family: 'Anton', sans-serif;
 		font-weight: 400;
 		font-style: normal;
@@ -37,10 +34,68 @@
 	}
 
 	.flowr {
-		margin-top: -15rem;
+		margin-top: -14rem;
 	}
 
 	img {
+		margin-top: -8rem;
 		display: block;
+	}
+
+	@media only screen and (max-width: 1250px) {
+		h1 {
+			font-size: 20rem;
+		}
+
+		.flowr {
+			margin-top: -11rem;
+		}
+	}
+
+	@media only screen and (max-width: 1000px) {
+		h1 {
+			font-size: 15rem;
+		}
+
+		.flowr {
+			margin-top: -8rem;
+		}
+	}
+
+	@media only screen and (max-width: 750px) {
+		h1 {
+			font-size: 10rem;
+		}
+		.flowr {
+			margin-top: -5rem;
+		}
+
+		img {
+			margin-top: -5rem;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		h1 {
+			margin-top: 0.5rem;
+			font-size: 7rem;
+		}
+		.flowr {
+			margin-top: -4rem;
+		}
+	}
+
+	@media only screen and (max-width: 390px) {
+		h1 {
+			font-size: 6rem;
+		}
+
+		.flowr {
+			margin-top: -3rem;
+		}
+
+		img {
+			margin-top: -4rem;
+		}
 	}
 </style>

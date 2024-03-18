@@ -2344,7 +2344,6 @@
 				</p> -->
 		</article>
 	</section>
-	<img class="wavefooter" src="assets/wavefooter2.svg" alt="Your SVG" />
 </section>
 
 <style>
@@ -2353,24 +2352,14 @@
 		display: flex;
 	}
 
-	.wavefooter {
-		margin-bottom: -11rem;
-	}
-
 	svg {
 		width: 40%;
 	}
 
-	/* .text-bg {
-		border-radius: 1rem;
-		padding: 1rem;
-		background-color: var(--text-color);
-	} */
-
 	p {
 		margin-bottom: 1.5rem;
+		font-size: 1.1	rem;
 		max-width: 90%;
-		/* color: var(--services-text-color); */
 	}
 
 	article {
