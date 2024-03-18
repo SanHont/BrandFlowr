@@ -54,6 +54,8 @@
 
 	@media only screen and (max-width: 1000px) {
 		h1 {
+			margin-top: 5rem;
+			margin-bottom: 5rem;
 			font-size: 15rem;
 		}
 
@@ -64,6 +66,8 @@
 
 	@media only screen and (max-width: 750px) {
 		h1 {
+			margin-top: 11rem;
+			margin-bottom: 11rem;
 			font-size: 10rem;
 		}
 		.flowr {
@@ -77,7 +81,8 @@
 
 	@media only screen and (max-width: 500px) {
 		h1 {
-			margin-top: 0.5rem;
+			margin-top: 15.5rem;
+			margin-bottom: 15.5rem;
 			font-size: 7rem;
 		}
 		.flowr {
@@ -91,6 +96,8 @@
 
 	@media only screen and (max-width: 390px) {
 		h1 {
+			margin-top: 17rem;
+			margin-bottom: 17rem;
 			font-size: 6rem;
 		}
 

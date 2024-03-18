@@ -1,4 +1,4 @@
-<img class="wavefooter" src="assets/wavefooter2.svg" alt="Your SVG" />
+<img class="wavefooter" src="assets/wavefooter.svg" alt="Your SVG" />
 <section>
 	<div class="logo">
 		<svg
