@@ -2,7 +2,7 @@
 	<h2>Our Services</h2>
 	<div class="services">
 		<div class="card">
-			<img src="assets/socialmedia.svg" alt="Our social media services" />
+			<img src="assets/socialmedia.svg" alt="Our social media services" loading="lazy"/>
 			<h3>Social Media</h3>
 			<div class="line"></div>
 			<p class="first-text">
@@ -20,7 +20,7 @@
 			<!-- <h4>Learn More</h4> -->
 		</div>
 		<div class="card">
-			<img src="assets/programming.svg" alt="Our webdevelopment services" />
+			<img src="assets/programming.svg" alt="Our webdevelopment services" loading="lazy" />
 			<h3>Web Development</h3>
 			<div class="line"></div>
 			<p class="first-text">
@@ -36,7 +36,7 @@
 			<!-- <h4>Learn More</h4> -->
 		</div>
 		<div class="card">
-			<img src="assets/photography.svg" alt="Our photography services" />
+			<img src="assets/photography.svg" alt="Our photography services" loading="lazy" />
 			<h3>Photography</h3>
 			<div class="line"></div>
 			<p class="first-text">

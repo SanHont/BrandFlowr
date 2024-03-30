@@ -1,5 +1,5 @@
 <section>
-	<img class="wavetop" src="assets/wavebottom.svg" alt="Your SVG" />
+	<img class="wavetop" src="assets/wavebottom.svg" alt="" loading="lazy" />
 	<section class="content">
 		<svg
 			class="animated"

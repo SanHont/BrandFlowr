@@ -15,7 +15,7 @@
 
 <section>
 	<h1><span class="brand">BRAND</span><span class="flowr">FLOWR</span></h1>
-	<img src="assets/wave.svg" alt="Your SVG" />
+	<img src="assets/wave.svg" alt="" loading="lazy" />
 </section>
 
 <style>

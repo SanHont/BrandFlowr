@@ -1,10 +1,11 @@
-<img class="wavefooter" src="assets/wavefooter.svg" alt="Your SVG" />
+<img class="wavefooter" src="assets/wavefooter.svg" alt="" loading="lazy" />
 <section>
 	<div class="logo">
 		<svg
 			width="321.75"
 			height="37.19982485900054"
 			viewBox="0 0 370 42.77835337320963"
+			loading="lazy"
 			class="iconsvg"
 			><defs id="SvgjsDefs1021"></defs><g
 				id="SvgjsG1022"
@@ -30,17 +31,17 @@
 			<h3>Follow us</h3>
 			<span>
 				<a href="https://www.facebook.com/profile.php?id=61557368016442" target="_blank"
-					><img class="socials-icon" src="assets/facebook.svg" alt="HTML tutorial" /></a
+					><img class="socials-icon" src="assets/facebook.svg" alt="A link to our facebook page" loading="lazy" /></a
 				>
 			</span>
 			<span>
 				<a href="https://www.instagram.com/brandflowr/" target="_blank"
-					><img class="socials-icon" src="assets/instagram.svg" alt="HTML tutorial" /></a
+					><img class="socials-icon" src="assets/instagram.svg" alt="A link to our instagram account" loading="lazy" /></a
 				>
 			</span>
 			<span>
 				<a href="https://www.linkedin.com/in/brandflowr-marketing-4530812b6/" target="_blank"
-					><img class="socials-icon" src="assets/linkedin.svg" alt="HTML tutorial" /></a
+					><img class="socials-icon" src="assets/linkedin.svg" alt="A link to our linkedin account" loading="lazy" /></a
 				>
 			</span>
 		</div>

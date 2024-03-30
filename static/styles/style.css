@@ -12,6 +12,7 @@ button:focus-visible {
 	border: 3px solid black;
 }
 
+
 :root {
 	--background-color: #34b38a;
 	--text-color: #f7f6f2;
