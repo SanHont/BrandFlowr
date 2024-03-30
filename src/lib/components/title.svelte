@@ -7,10 +7,6 @@
 		gsap.fromTo('.brand', { x: -4000 }, { x: 0, duration: 1 });
 		gsap.fromTo('.flowr', { x: 4000 }, { x: 0, duration: 1 });
 	});
-
-	// import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-	// gsap.registerPlugin(ScrollTrigger);
 </script>
 
 <section>
