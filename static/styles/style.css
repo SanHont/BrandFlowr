@@ -9,7 +9,7 @@
 
 *:focus-visible,
 button:focus-visible {
-	border: 3px solid black;
+	border: 3px solid var(--text-color);
 }
 
 :root {
