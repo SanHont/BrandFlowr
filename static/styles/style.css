@@ -12,7 +12,7 @@ button:focus-visible {
 	border: 3px solid black;
 }
 
-:root {
+/* :root {
 	--background-color: oklch(68.78% 0.126 166.89);
 	--text-color: oklch(97.28% 0.005 95.1);
 	--services-text-color: oklch(37.53% 0.026 255.09);
@@ -30,9 +30,9 @@ button:focus-visible {
 		--line-color: oklch(81.08% 0.103 170.79);
 		--line-color-transparent: oklch(81.08% 0.103 170.79 / 0%);
 	}
-}
+} */
 
-/* :root {
+:root {
 	--background-color: #34b38a;
 	--text-color: #f7f6f2;
 	--services-text-color: #38424f;
@@ -50,7 +50,7 @@ button:focus-visible {
 		--line-color: #76d7b8;
 		--line-color-transparent: #76d7b800;
 	}
-} */
+}
 
 h2,
 h3,
