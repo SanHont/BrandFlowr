@@ -27,11 +27,11 @@
 	<nav class="navigation">
 		<div class="left-nav">
 			<a href="/">Home</a>
-			<a href="/">About Us</a>
+			<a href="/">Our Work</a>
 		</div>
 		<div class="space-between"></div>
 		<div class="right-nav">
-			<a href="/">Our Work</a>
+			<a href="/">About Us</a>
 			<a href="/">Contact</a>
 		</div>
 	</nav>
