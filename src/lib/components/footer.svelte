@@ -1,171 +1,261 @@
-<img class="wavefooter" src="assets/wavefooter.svg" alt="" loading="lazy" />
-<section>
-	<div class="logo">
-		<svg
-			width="321.75"
-			height="37.19982485900054"
-			viewBox="0 0 370 42.77835337320963"
-			loading="lazy"
-			class="iconsvg"
-			><defs id="SvgjsDefs1021"></defs><g
-				id="SvgjsG1022"
-				featurekey="QMusi1-0"
-				transform="matrix(-0.7777777777777778,0,0,0.7777777777777778,73.8888888888889,-17.533443874782986)"
-				fill="#38424f"
-				><path
-					xmlns="http://www.w3.org/2000/svg"
-					d="M46.39,49.658c2.556,0,4.727-1.633,5.506-3.907h0.028c0.016-0.077,0.028-0.155,0.047-0.229  c0.053-0.288,0.116-0.57,0.185-0.846c1.367-5.679,4.89-9.722,9.023-9.722c3.439,0,6.449,2.812,8.154,7.028  c-7.284-9.487-14.172-2.536-13.643-2.64c0.53-0.104,6.561,1.446,6.769,9.914s-5.527,10.947-7.821,11.812  c7.508,0.35,17.519-4.687,17.311-15.433c-0.132-6.796-3.753-11.038-6.4-13.243c-0.208-0.177-0.422-0.346-0.64-0.512  c-0.046-0.035-0.087-0.064-0.132-0.098c-0.294-0.22-0.593-0.433-0.903-0.631c-0.458-0.298-0.812-0.5-0.972-0.585  c-0.003-0.002-0.007-0.003-0.01-0.005c-0.057-0.03-0.093-0.048-0.093-0.048s-0.002,0.002-0.002,0.003  c-2.119-1.12-4.536-1.759-7.105-1.759c-8.353,0-15.123,6.704-15.123,14.973l0.003,0.003c-0.003,0.053-0.003,0.105-0.003,0.158  C40.568,47.077,43.174,49.658,46.39,49.658z"
-				></path><path
-					xmlns="http://www.w3.org/2000/svg"
-					d="M67.782,22.543c-5.068,0-9.814,1.376-13.875,3.764c0.97-0.133,1.958-0.208,2.966-0.208c11.707,0,21.195,9.397,21.195,20.99  c0,4.319-1.317,8.331-3.576,11.667c-0.084,0.118-0.166,0.238-0.25,0.362c-0.028,0.04-0.053,0.077-0.084,0.118  c-1.017,1.478-2.137,2.686-3.348,3.665c-6.482,5.242-15.502,3.879-25.097,2.026c-0.094-0.018-0.191-0.034-0.284-0.056  c-6.138-1.19-12.501-2.553-18.583-2.5C9.327,62.527,5,75.694,5,75.694s15.12-10.224,34.517-2.788  c15.952,6.116,27.635,5.164,34.176,2.909c0.109-0.037,0.216-0.046,0.313-0.071c0.2-0.047,0.372-0.087,0.522-0.124  c0.291-0.074,0.482-0.127,0.573-0.155c0.019-0.006,0.031-0.009,0.044-0.012c0.006,0,0.013-0.003,0.013-0.003l0.003-0.003  C86.606,72.264,95,61.852,95,49.497C95,34.613,82.815,22.543,67.782,22.543z"
-				></path></g
-			>
-		</svg>
-		<h3 class="logo-title">BRANDFLOWR</h3>
-	</div>
-	<div class="contact">
-		<h3>contact</h3>
-		<p>contact@BrandFlowr.nl</p>
-		<p>+31 6 41 22 00 44</p>
-		<div class="socials">
-			<h3>Follow us</h3>
-			<span>
-				<a href="https://www.facebook.com/profile.php?id=61557368016442" target="_blank"
-					><img
-						class="socials-icon"
-						src="assets/facebook.svg"
-						alt="A link to our facebook page"
-						loading="lazy"
-					/></a
-				>
-			</span>
-			<span>
-				<a href="https://www.instagram.com/brandflowr/" target="_blank"
-					><img
-						class="socials-icon"
-						src="assets/instagram.svg"
-						alt="A link to our instagram account"
-						loading="lazy"
-					/></a
-				>
-			</span>
-			<span>
-				<a href="https://www.linkedin.com/in/brandflowr-marketing-4530812b6/" target="_blank"
-					><img
-						class="socials-icon"
-						src="assets/linkedin.svg"
-						alt="A link to our linkedin account"
-						loading="lazy"
-					/></a
-				>
-			</span>
+<footer>
+	<div class="footer-container">
+		<div class="footer-section brand-section">
+			<h2>BrandFlowr</h2>
+			<p>Elevating brands through creative social media management and engaging content creation.</p>
+			<div class="social-icons">
+				<a href="https://www.facebook.com/profile.php?id=61557368016442" aria-label="Facebook">
+					<svg viewBox="0 0 24 24"
+						><path
+							d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"
+						/></svg
+					>
+				</a>
+				<a href="https://www.instagram.com/brandflowr/" aria-label="Instagram">
+					<svg viewBox="0 0 24 24"
+						><path
+							d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+						/></svg
+					>
+				</a>
+				<a href="https://www.linkedin.com/company/brandflowr/" aria-label="LinkedIn">
+					<svg viewBox="0 0 24 24"
+						><path
+							d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+						/></svg
+					>
+				</a>
+			</div>
+		</div>
+
+		<div class="footer-section contact-section">
+			<h3>Contact</h3>
+			<ul>
+				<li>
+					<svg viewBox="0 0 24 24" class="icon"
+						><path
+							d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+						/></svg
+					>
+					<a href="mailto:contact@brandflowr.nl">contact@brandflowr.nl</a>
+				</li>
+				<li>
+					<svg viewBox="0 0 24 24" class="icon"
+						><path
+							d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1 1 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7z"
+						/></svg
+					>
+					<a href="tel:+31641220044">+31 6 41 22 00 44</a>
+				</li>
+				<li>
+					<svg viewBox="0 0 24 24" class="icon"
+						><path
+							d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"
+						/></svg
+					>
+					<span>Amsterdam, Netherlands</span>
+				</li>
+			</ul>
+		</div>
+
+		<div class="footer-section info-section">
+			<h3>Business Info</h3>
+			<ul>
+				<li>KVK: 94536457</li>
+				<li>BTW: NL866813032B01</li>
+			</ul>
 		</div>
 	</div>
-</section>
+
+	<div class="footer-bottom">
+		<p>&copy; {new Date().getFullYear()} BrandFlowr. All rights reserved.</p>
+	</div>
+</footer>
 
 <style>
-	section {
+	footer {
+		background-color: #f7f6f2;
+		color: #333333; /* Dark gray for good contrast on light background */
+		padding: 2rem;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+	}
+
+	.footer-container {
+		width: 90%;
+		margin: 0 auto;
 		display: flex;
-		justify-content: space-around;
-		margin-top: 30px;
-		background-color: var(--text-color);
-		padding-top: 30px;
-		padding-bottom: 30px;
-		color: #38424f;
-		bottom: 0;
+		justify-content: space-between;
+		gap: 5%;
 	}
 
-	.iconsvg {
-		margin-right: -16rem;
-	}
-
-	.wavefooter {
-		display: block;
-		margin-bottom: -5rem;
-	}
-
-	.logo-title {
-		font-size: 3.6rem;
-		letter-spacing: 0.03rem;
-		font-family: 'Anton', sans-serif;
-		font-weight: 400;
-		font-style: normal;
-	}
-
-	.logo {
+	.footer-section {
+		flex: 1;
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
 		align-items: center;
+		padding: 0 2%;
 	}
 
-	.socials {
-		margin-top: 2rem;
+	h2,
+	h3 {
+		color: #34b38a; /* Using your brand green for headings */
+		margin-bottom: 1em;
+		font-weight: 700;
 	}
 
-	.socials h3 {
-		margin-bottom: 1rem;
-	}
-
-	span {
-		margin: 5px;
+	h2 {
+		font-size: 2em;
 	}
 
 	h3 {
-		text-transform: uppercase;
-		font-size: 1.35rem;
+		font-size: 1.5em;
 	}
 
-	.socials-icon {
-		width: 4rem;
-		height: auto;
-		background-color: var(--background-color);
-		color: var(-background-color);
-		border-radius: 50%;
+	p {
+		margin-bottom: 2em;
+		font-weight: 300;
+		line-height: 1.6;
 	}
 
-	@media only screen and (max-width: 1250px) {
-		.socials-icon {
-			width: 3rem;
-		}
-
-		h3 {
-			font-size: 1.1rem;
-		}
-
-		.logo-title {
-			font-size: 2.5rem;
-		}
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		width: 100%;
 	}
 
-	@media only screen and (max-width: 600px) {
-		section {
+	li {
+		margin-bottom: 1em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.75em;
+		font-weight: 300;
+	}
+
+	.icon {
+		width: 1.25em;
+		height: 1.25em;
+		fill: #34b38a; /* Matching heading color for icons */
+	}
+
+	.social-icons {
+		display: flex;
+		justify-content: center;
+		gap: 1.5em;
+	}
+
+	.social-icons svg {
+		width: 1.5em;
+		height: 1.5em;
+		fill: #333333; /* Dark gray for social icons */
+		transition: transform 0.2s ease;
+	}
+
+	a {
+		color: #333333;
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+
+	a:hover {
+		color: #34b38a; /* Brand green on hover */
+	}
+
+	.social-icons a:hover svg {
+		fill: #34b38a; /* Brand green on hover */
+	}
+
+	.footer-bottom {
+		width: 90%;
+		margin: 1.5em auto 0;
+		padding-top: 2em;
+		border-top: 1px solid #d1d1d1; /* Light gray border */
+	}
+
+	.footer-bottom p {
+		margin: 0;
+		font-size: 0.9em;
+		opacity: 0.8;
+	}
+
+	@media (max-width: 968px) {
+		.footer-container {
 			flex-direction: column;
-			align-items: center;
-		}
-		h3 {
-			text-align: center;
+			gap: 4em;
 		}
 
-		.wavefooter {
-			margin-bottom: -2rem;
-		}
-		.contact {
-			margin-top: 1rem;
-		}
-
-		span {
-			align-items: center;
+		.footer-section {
+			width: 100%;
+			padding: 0;
 		}
 	}
 
-	@media only screen and (max-width: 390px) {
-		h3 {
-			font-size: 0.9rem;
+	@media (max-width: 480px) {
+		footer {
+			padding: 10% 0;
 		}
 
-		.iconsvg {
-			width: 90%;
-			margin-right: -13.5rem;
+		h2 {
+			font-size: 1.75em;
+		}
+
+		h3 {
+			font-size: 1.25em;
+		}
+
+		.footer-container {
+			width: 95%;
+		}
+	}
+
+	@media (max-width: 1440px) {
+		.footer-container {
+			width: 95%;
+		}
+	}
+
+	@media (max-width: 768px) {
+		footer {
+			padding: 8% 0;
+		}
+
+		.footer-section {
+			margin-bottom: 2em;
+		}
+
+		li {
+			font-size: 0.9em;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.social-icons {
+			gap: 1em;
+		}
+
+		.icon {
+			width: 1em;
+			height: 1em;
+		}
+	}
+
+	@media (max-width: 320px) {
+		h2 {
+			font-size: 1.5em;
+		}
+
+		h3 {
+			font-size: 1.1em;
+		}
+
+		.footer-container {
+			width: 98%;
+		}
+
+		li {
+			font-size: 0.8em;
 		}
 	}
 </style>
