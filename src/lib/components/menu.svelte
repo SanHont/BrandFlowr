@@ -1,121 +1,225 @@
 <script>
 	import { onMount } from 'svelte';
-
 	import { gsap } from 'gsap';
 
+	let isScrolled = false;
+
 	onMount(() => {
-		gsap.fromTo('.icon', { opacity: 0 }, { opacity: 1, duration: 0.7, delay: 1.3 });
-		gsap.fromTo('.b', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 0.3 });
-		gsap.fromTo('.r', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 0.4 });
-		gsap.fromTo('.a', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 0.5 });
-		gsap.fromTo('.n', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 0.6 });
-		gsap.fromTo('.d', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 0.7 });
-		gsap.fromTo('.f', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 0.8 });
-		gsap.fromTo('.l', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 0.9 });
-		gsap.fromTo('.o', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 1.0 });
-		gsap.fromTo('.w', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 1.1 });
-		gsap.fromTo('.r2', { opacity: 0 }, { opacity: 1, duration: 0.1, delay: 1.2 });
-		gsap.fromTo('.logo', { scale: 1 }, { scale: 0.3, duration: 1, delay: 2.8 });
-		gsap.fromTo('.logo', { y: 0 }, { y: -370, duration: 1, delay: 2.8 });
-		gsap.fromTo('.navigation', { scale: 0 }, { scale: 1, duration: 1, delay: 2.8 });
-		gsap.fromTo('.navigation', { y: -50 }, { y: 0, duration: 1, delay: 2.8 });
-		gsap.fromTo('.navigation', { opacity: 0 }, { opacity: 1, duration: 0.7, delay: 2.8 });
+		// Simpler animation timeline
+		const tl = gsap.timeline({
+			defaults: {
+				ease: 'power3.out',
+				duration: 0.6
+			}
+		});
+
+		// Animate the entire header container
+		tl.from('.header-container', {
+			y: -50,
+			opacity: 0
+		});
+
+		// Simple fade in for logo, nav items, and language selector
+		gsap.from(['.logo-container', '.nav-menu', '.lang-select'], {
+			opacity: 0,
+			duration: 0.4,
+			delay: 0.3,
+			stagger: 0.1
+		});
+
+		// Header scroll effect
+		window.addEventListener('scroll', () => {
+			isScrolled = window.scrollY > 50;
+			const header = document.querySelector('.header-container');
+
+			if (isScrolled) {
+				header.classList.add('scrolled');
+			} else {
+				header.classList.remove('scrolled');
+			}
+		});
 	});
 </script>
 
-<section>
-	<nav class="navigation">
-		<div class="left-nav">
-			<a href="/">Home</a>
-			<a href="/">Our Work</a>
-		</div>
-		<div class="space-between"></div>
-		<div class="right-nav">
-			<a href="/">About Us</a>
-			<a href="/">Contact</a>
-		</div>
-	</nav>
+<div class="header-wrapper">
+	<header>
+		<div class="header-container">
+			<div class="logo-container">
+				<span class="brand-text">BrandFlowr</span>
+			</div>
 
-	<div class="logo">
-		<img class="icon" src="assets/brandflowr-icon.svg" alt="" loading="lazy" />
-		<title>
-			<h1>
-				<span class="b">B</span>
-				<span class="r">R</span>
-				<span class="a">A</span>
-				<span class="n">N</span>
-				<span class="d">D</span>
-				<span class="flowr">
-					<span class="f">F</span>
-					<span class="l">L</span>
-					<span class="o">O</span>
-					<span class="w">W</span>
-					<span class="r2">R</span>
-				</span>
-			</h1>
-		</title>
-	</div>
-</section>
+			<nav class="nav-menu">
+				<a href="/" class="nav-item">Home</a>
+				<a href="/services" class="nav-item">Services</a>
+				<a href="/portfolio" class="nav-item">Portfolio</a>
+				<a href="/about" class="nav-item">About</a>
+				<a href="/contact" class="nav-item contact-btn">Let's Talk</a>
+				<div class="lang-select">
+					<select>
+						<option value="en">EN</option>
+						<option value="nl">NL</option>
+					</select>
+				</div>
+			</nav>
+		</div>
+	</header>
+</div>
 
 <style>
-	title {
+	.header-wrapper {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		padding: 1rem 2rem;
+	}
+
+	.header-container {
 		display: flex;
-		justify-content: center;
-		text-align: center;
-	}
-
-	h1 {
-		max-width: 100%;
-		font-size: 10rem;
-		font-family: 'Anton', sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		letter-spacing: -1.3rem;
-	}
-
-	.flowr {
-		display: block;
-		margin-top: -6rem;
-	}
-
-	.logo {
+		justify-content: space-between;
 		align-items: center;
+		padding: 1rem 5%;
+		background-color: var(--text-color);
+		border-radius: 1rem;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	}
+
+	.logo-container {
 		display: flex;
-		flex-direction: column;
+		align-items: center;
+		gap: 0.8rem;
 	}
 
-	img {
-		width: 23rem;
-		margin-bottom: -8rem;
+	.brand-text {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.6rem;
+		font-weight: 700;
+		letter-spacing: 0.03rem;
+		color: var(--services-text-color);
 	}
 
-	nav {
+	.nav-menu {
 		display: flex;
-		padding: 1rem;
-		margin-top: 4rem;
-		justify-content: center;
+		gap: 2.5rem;
+		align-items: center;
 	}
 
-	a {
-		margin: 0 3rem;
-		font-family: 'Anton', sans-serif;
-		font-weight: 400;
-		letter-spacing: 0.04rem;
-		font-size: 1.9rem;
-		padding: 0 0.2rem;
-		text-transform: uppercase;
+	.nav-item {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
 		text-decoration: none;
+		color: var(--services-text-color);
+		font-size: 1rem;
+		padding: 0.5rem 0;
+		position: relative;
+		transition: all 0.3s ease;
+	}
+
+	.nav-item:not(.contact-btn)::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		width: 0;
+		height: 2px;
+		background-color: var(--background-color);
+		transition: all 0.3s ease;
+		transform: translateX(-50%);
+	}
+
+	.nav-item:not(.contact-btn):hover::after {
+		width: 100%;
+	}
+
+	.contact-btn {
+		background-color: var(--background-color);
 		color: var(--text-color);
-		border: 3px solid var(--line-color-transparent);
-		border-bottom: 3px solid var(--text-color);
-		transition: 0.4s;
+		padding: 0.8rem 1.8rem;
+		border-radius: 2rem;
+		font-weight: 600;
+		transition: all 0.3s ease;
+		border: 2px solid var(--background-color);
 	}
 
-	a:hover {
-		border: 3px solid var(--line-color);
+	.contact-btn:hover {
+		background-color: transparent;
+		color: var(--background-color);
+		transform: translateY(-2px);
 	}
 
-	.space-between {
-		margin: 0 15rem;
+	.lang-select select {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		padding: 0.4rem 0.8rem;
+		border: 2px solid var(--background-color);
+		border-radius: 2rem;
+		background: transparent;
+		color: var(--services-text-color);
+		cursor: pointer;
+		transition: all 0.3s ease;
+		outline: none;
+		font-size: 0.9rem;
+		margin-left: 1rem;
+	}
+
+	.lang-select select:hover {
+		background-color: var(--background-color);
+		color: var(--text-color);
+	}
+
+	@media (max-width: 968px) {
+		.header-wrapper {
+			padding: 0;
+		}
+
+		.header-container {
+			flex-direction: column;
+			gap: 1rem;
+			border-radius: 0;
+		}
+
+		.nav-menu {
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 1rem;
+			padding: 0.5rem 0;
+		}
+
+		.brand-text {
+			font-size: 1.4rem;
+		}
+
+		.lang-select {
+			margin: 0.5rem 0;
+		}
+
+		.lang-select select {
+			margin-left: 0;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.header-container {
+			padding: 1rem 3%;
+		}
+
+		.nav-item {
+			font-size: 0.9rem;
+			padding: 0.5rem 0;
+		}
+
+		.brand-text {
+			font-size: 1.2rem;
+		}
+
+		.contact-btn {
+			padding: 0.6rem 1.4rem;
+		}
+
+		.lang-select select {
+			padding: 0.3rem 0.6rem;
+			font-size: 0.8rem;
+		}
 	}
 </style>

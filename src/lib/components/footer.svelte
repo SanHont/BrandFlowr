@@ -31,17 +31,32 @@
 			<h3>Follow us</h3>
 			<span>
 				<a href="https://www.facebook.com/profile.php?id=61557368016442" target="_blank"
-					><img class="socials-icon" src="assets/facebook.svg" alt="A link to our facebook page" loading="lazy" /></a
+					><img
+						class="socials-icon"
+						src="assets/facebook.svg"
+						alt="A link to our facebook page"
+						loading="lazy"
+					/></a
 				>
 			</span>
 			<span>
 				<a href="https://www.instagram.com/brandflowr/" target="_blank"
-					><img class="socials-icon" src="assets/instagram.svg" alt="A link to our instagram account" loading="lazy" /></a
+					><img
+						class="socials-icon"
+						src="assets/instagram.svg"
+						alt="A link to our instagram account"
+						loading="lazy"
+					/></a
 				>
 			</span>
 			<span>
 				<a href="https://www.linkedin.com/in/brandflowr-marketing-4530812b6/" target="_blank"
-					><img class="socials-icon" src="assets/linkedin.svg" alt="A link to our linkedin account" loading="lazy" /></a
+					><img
+						class="socials-icon"
+						src="assets/linkedin.svg"
+						alt="A link to our linkedin account"
+						loading="lazy"
+					/></a
 				>
 			</span>
 		</div>
