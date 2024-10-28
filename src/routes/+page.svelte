@@ -3,13 +3,13 @@
 	import Aboutus from '../lib/components/aboutus.svelte';
 	import Services from '../lib/components/services.svelte';
 	import Footer from '../lib/components/footer.svelte';
+	import Menu from '../lib/components/menu.svelte';
+	import Homepage from '../lib/components/homepage.svelte';
 
 </script>
 
-<Title />
+<Menu />
 
-<Services />
-
-<Aboutus />
+<Homepage />
 
 <Footer />

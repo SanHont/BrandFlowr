@@ -79,6 +79,17 @@
 		padding: 2rem;
 		font-family: 'Montserrat', sans-serif;
 		text-align: center;
+		/* Add these properties to make footer stick to bottom */
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+	/* Add this to ensure proper spacing above footer */
+	:global(body) {
+		position: relative;
+		min-height: 100vh;
+		padding-bottom: 400px; /* Adjust this value based on your footer's height */
 	}
 
 	.footer-container {

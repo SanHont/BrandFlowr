@@ -72,7 +72,7 @@
 		top: 0;
 		left: 0;
 		z-index: 1000;
-		padding: 1rem 2rem;
+	
 	}
 
 	.header-container {
@@ -81,7 +81,6 @@
 		align-items: center;
 		padding: 1rem 5%;
 		background-color: var(--text-color);
-		border-radius: 1rem;
 		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	}
 
