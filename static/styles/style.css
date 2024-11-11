@@ -7,51 +7,70 @@
 	box-sizing: border-box;
 }
 
-*:focus-visible,
-button:focus-visible {
-	border: 3px solid var(--text-color);
-}
-
-/* :root {
-	--background-color: oklch(68.78% 0.126 166.89);
-	--text-color: oklch(97.28% 0.005 95.1);
-	--services-text-color: oklch(37.53% 0.026 255.09);
-	--services-background-color: oklch(76.41% 0.127 168.1);
-	--line-color: oklch(81.08% 0.103 170.79);
-	--line-color-transparent: oklch(81.08% 0.103 170.79 / 0%);
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--background-color: oklch(68.78% 0.126 166.89);
-		--text-color: oklch(97.28% 0.005 95.1);
-		--services-text-color: oklch(37.53% 0.026 255.09);
-		--services-background-color: oklch(76.41% 0.127 168.1);
-		--line-color: oklch(81.08% 0.103 170.79);
-		--line-color-transparent: oklch(81.08% 0.103 170.79 / 0%);
-	}
-} */
-
 :root {
-	--background-color: #34b38a;
-	--text-color: #f7f6f2;
-	--services-text-color: #38424f;
-	--services-background-color: #4ecca3;
-	--line-color: #76d7b8;
-	--line-color-transparent: #76d7b800;
+	/* Brand Colors */
+	--brand-primary: #34b38a; /* Main brand color */
+	--brand-primary-light: #4ecca3; /* Lighter shade for hover states */
+	--brand-primary-dark: #2a9c76; /* Darker shade for active states */
+	--brand-accent: #76d7b8; /* Accent color for highlights */
+
+	/* Background Colors */
+	--bg-primary: #f7f6f2; /* Main background color (was text-color) */
+	--bg-secondary: #4ecca3; /* Secondary background (was services-background-color) */
+	--bg-dark: #38424f; /* Dark background (was services-text-color) */
+	--bg-gradient-start: #76d7b8; /* Gradient start color */
+	--bg-gradient-end: #76d7b800; /* Gradient end color */
+
+	/* Text Colors */
+	--text-primary: #38424f; /* Main text color */
+	--text-light: #f7f6f2; /* Light text for dark backgrounds */
+	--text-muted: rgba(56, 66, 79, 0.8); /* Muted text color */
+
+	/* Interactive Colors */
+	--hover-primary: #2a9c76; /* Primary button hover */
+	--hover-secondary: rgba(52, 179, 138, 0.1); /* Secondary button hover */
+
+	/* UI Elements */
+	--shadow-sm: 0 4px 15px rgba(52, 179, 138, 0.1);
+	--shadow-md: 0 8px 25px rgba(52, 179, 138, 0.2);
+	--shadow-lg: 0 15px 35px rgba(52, 179, 138, 0.3);
+
+	/* Status Colors */
+	--success: #34b38a;
+	--warning: #ffd700;
+	--error: #ff4444;
+
+	/* Focus States */
+	--focus-ring: #34b38a;
+	--focus-ring-offset: #ffffff;
+
+	/* Overlay Colors */
+	--overlay-light: rgba(255, 255, 255, 0.1);
+	--overlay-dark: rgba(0, 0, 0, 0.1);
+
+	/* Legacy Variables (for backward compatibility) */
+	--background-color: var(--brand-primary);
+	--text-color: var(--bg-primary);
+	--services-text-color: var(--text-primary);
+	--services-background-color: var(--bg-secondary);
+	--line-color: var(--brand-accent);
+	--line-color-transparent: var(--bg-gradient-end);
+
+	/* New colors for FAQ */
+	--faq-item-bg: #FFFFFF;
+	--faq-hover-bg: rgba(52, 179, 138, 0.08);
+	--faq-border: rgba(52, 179, 138, 0.2);
+	--faq-shadow: 0 4px 6px rgba(52, 179, 138, 0.15);
+	--faq-item-shadow: 0 2px 4px rgba(52, 179, 138, 0.08);
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--background-color: #34b38a;
-		--text-color: #f7f6f2;
-		--services-text-color: #38424f;
-		--services-background-color: #4ecca3;
-		--line-color: #76d7b8;
-		--line-color-transparent: #76d7b800;
-	}
+/* Focus States */
+*:focus-visible {
+	outline: 3px solid var(--focus-ring);
+	outline-offset: 2px;
 }
 
+/* Typography Base Styles */
 h2,
 h3,
 h4,
@@ -65,11 +84,9 @@ p {
 h2 {
 	font-size: 5rem;
 }
-
 h3 {
 	font-size: 2rem;
 }
-
 h4 {
 	font-size: 1.1rem;
 }
@@ -82,4 +99,14 @@ h4 {
 
 p {
 	font-weight: 300;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
 }

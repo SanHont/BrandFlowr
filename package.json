@@ -25,6 +25,7 @@
 	"type": "module",
 	"dependencies": {
 		"gsap": "^3.12.5",
-		"svelte-inview": "^4.0.4"
+		"svelte-inview": "^4.0.4",
+		"tsparticles": "^3.5.0"
 	}
 }
